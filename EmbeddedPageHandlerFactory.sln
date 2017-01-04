@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paraesthesia.EmbeddedPageHandlerFactory", "Paraesthesia.EmbeddedPageHandlerFactory\Paraesthesia.EmbeddedPageHandlerFactory.csproj", "{6A55805B-8E40-4483-A555-FFE2368CF7A2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paraesthesia.EmbeddedPageHandlerFactory.Demo", "http://localhost/Paraesthesia.EmbeddedPageHandlerFactory.Demo/Paraesthesia.EmbeddedPageHandlerFactory.Demo.csproj", "{831CE02D-9935-431A-8E5A-9FA54D429E37}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paraesthesia.EmbeddedPageHandlerFactory.Test", "Paraesthesia.EmbeddedPageHandlerFactory.Test\Paraesthesia.EmbeddedPageHandlerFactory.Test.csproj", "{45AFEFDC-8570-498C-91FE-D160B69A9AA7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Demo Setup", "Demo Setup\Demo Setup.vdproj", "{A874F81F-2573-4C26-8AFB-7AD48ED087D9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{6A55805B-8E40-4483-A555-FFE2368CF7A2}.Debug.ActiveCfg = Debug|.NET
+		{6A55805B-8E40-4483-A555-FFE2368CF7A2}.Debug.Build.0 = Debug|.NET
+		{6A55805B-8E40-4483-A555-FFE2368CF7A2}.Release.ActiveCfg = Release|.NET
+		{6A55805B-8E40-4483-A555-FFE2368CF7A2}.Release.Build.0 = Release|.NET
+		{831CE02D-9935-431A-8E5A-9FA54D429E37}.Debug.ActiveCfg = Debug|.NET
+		{831CE02D-9935-431A-8E5A-9FA54D429E37}.Debug.Build.0 = Debug|.NET
+		{831CE02D-9935-431A-8E5A-9FA54D429E37}.Release.ActiveCfg = Release|.NET
+		{831CE02D-9935-431A-8E5A-9FA54D429E37}.Release.Build.0 = Release|.NET
+		{45AFEFDC-8570-498C-91FE-D160B69A9AA7}.Debug.ActiveCfg = Debug|.NET
+		{45AFEFDC-8570-498C-91FE-D160B69A9AA7}.Debug.Build.0 = Debug|.NET
+		{45AFEFDC-8570-498C-91FE-D160B69A9AA7}.Release.ActiveCfg = Release|.NET
+		{45AFEFDC-8570-498C-91FE-D160B69A9AA7}.Release.Build.0 = Release|.NET
+		{A874F81F-2573-4C26-8AFB-7AD48ED087D9}.Debug.ActiveCfg = Debug
+		{A874F81F-2573-4C26-8AFB-7AD48ED087D9}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
